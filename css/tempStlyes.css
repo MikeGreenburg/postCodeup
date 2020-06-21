@@ -19,6 +19,7 @@ div {
 input[type=number] {
     width: 100%;
     height: 100%;
+    outline: none; /* gets rid of the border */
     font-family: 'Krona One', sans-serif;
     background: dodgerblue;
     color: white;
