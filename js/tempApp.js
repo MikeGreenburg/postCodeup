@@ -2,7 +2,7 @@ const celsiusInput = document.querySelector('#celsius > input');
 const fahrenheitInput = document.querySelector('#fahrenheit > input');
 const kelvinInput = document.querySelector('#kelvin > input');
 
-function celsiusToFahrenheitAndKelvin(){
+function celsiusToFahrenheitAndKelvin() {
         const cTemp = parseFloat(celsiusInput.value);
         const fTemp = (cTemp * (9/5)) + 32;
         const kTemp = cTemp + 273.15;
@@ -19,4 +19,4 @@ function fahrenheitToCelsiusAndKelvin() {
 }
 celsiusInput.addEventListener('input', celsiusToFahrenheitAndKelvin );
 fahrenheitInput.addEventListener('input', fahrenheitToCelsiusAndKelvin);
-kelvinInput.addEventListener('input', fahrenheitToCelsiusAndKelvin);
+// kelvinInput.addEventListener('input', fahrenheitToCelsiusAndKelvin);
