@@ -5,23 +5,67 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Register With Us</title>
 </head>
 <body>
-    <form method="POST" action="https://request-inspector.glitch.me/">
+    <form method="post" action="https://request-inspector.glitch.me/">
+        <div class="form-group">
+            <label for="InputEmail1">Email address</label>
+            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="InputPassword1">Password</label>
+            <input type="password" class="form-control" id="InputPassword1">
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="Check1">
+            <label class="form-check-label" for="Check1">Check me out</label>
+        </div>
 
-        <label for="email">Email</label>
-        <input id="email" name="email" type="text">
-        <br>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="bio">Bio</label>
+            <textarea class="form-control" id="bio" rows="3" placeholder="Your bio goes here"></textarea>
+        </div>
 
-        <label for="password">Password</label>
-        <input id="password" name="password" type="password">
-        <br>
+        <h4>How did you hear about us?</h4>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radios" id="Radio1" value="option1" checked>
+            <label class="form-check-label" for="Radio1">
+                Billboard
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radios" id="Radios2" value="option2">
+            <label class="form-check-label" for="Radios2">
+                Raido Advertisement
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radios" id="Radios3" value="option3">
+            <label class="form-check-label" for="Radios3">
+                Internet Advertisement
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radios" id="Radios4" value="option4">
+            <label class="form-check-label" for="Radios4">
+                Other
+            </label>
 
-        <input type="submit">
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-    <label>
-        <textarea name="comment" placeholder="This is where you put your Bio"></textarea>
-    </label>
+
+
 </body>
 </html>
