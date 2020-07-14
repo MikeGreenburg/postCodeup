@@ -3,15 +3,15 @@
 function clock(){
     const fullDate = new Date();
     let hour = fullDate.getHours();
-    let minutes = fullDate.getMinutes();
-    let seconde = fullDate.getSeconds();
+    let minute = fullDate.getMinutes();
+    let second = fullDate.getSeconds();
 
     if (hour<10) {
         hour = "0" + hour;
     }
 
-    if (minutes < 10){
-        minutes = "0" + minutes;
+    if (minute < 10){
+        minute = "0" + minute;
     }
 
     if (second < 10){
@@ -19,8 +19,8 @@ function clock(){
     }
 
     document.getElementById('hour').innerHTML = hour + ":";
-    document.getElementById('minutes').innerHTML = minutes + ":";
-    document.getElementById('second').innerHTML = second + ":";
+    document.getElementById('minute').innerHTML = minute + ":";
+    document.getElementById('second').innerHTML = second;
 
     setInterval(clock, 1000);
 }
