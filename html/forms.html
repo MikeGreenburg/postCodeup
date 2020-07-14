@@ -8,31 +8,35 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/forms.css">
     <title>Register With Us</title>
 </head>
 <body>
     <form method="post" action="https://request-inspector.glitch.me/">
         <div class="form-group">
-            <label for="InputEmail1">Email address</label>
-            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <div class="form-group col-md-6">
+                <label for="Email1">Email address</label>
+                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="name@example.com">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
         </div>
         <div class="form-group">
-            <label for="InputPassword1">Password</label>
-            <input type="password" class="form-control" id="InputPassword1">
+            <div class="form-group col-md-6">
+                <label for="Password1">Password</label>
+                <input type="password" class="form-control" id="Password1">
+            </div>
         </div>
-        <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="Check1">
-            <label class="form-check-label" for="Check1">Check me out</label>
+        <div class="form-goup">
+            <div class="form-group col-md-6">
+                <label for="Password1Confirmation">Confirm Your Password</label>
+                <input type="password" class="form-control" id="Password1Confirmation">
+            </div>
         </div>
-
         <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-            <label for="bio">Bio</label>
-            <textarea class="form-control" id="bio" rows="3" placeholder="Your bio goes here"></textarea>
+            <div class="form-group col-md-6">
+                <label for="bio">Bio</label>
+                <textarea class="form-control" id="bio" rows="3" placeholder="Your bio goes here" cols="30"></textarea>
+            </div>
         </div>
 
         <h4>How did you hear about us?</h4>
