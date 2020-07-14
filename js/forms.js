@@ -17,6 +17,14 @@ function clock(){
     if (second < 10){
         second = "0" + second;
     }
+
+    document.getElementById('hour').innerHTML = hour + ":";
+    document.getElementById('minutes').innerHTML = minutes + ":";
+    document.getElementById('second').innerHTML = second + ":";
+
+    setInterval(clock, 1000);
 }
+
+clock();
 
 
