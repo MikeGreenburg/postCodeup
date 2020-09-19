@@ -17,5 +17,8 @@ public class InputDemo {
         input.nextLine(); //added because of how the .nextDouble method works. It reads only a double however when the user inputs a number they will press the Enter Key. The Enter Key is essentially a newLine character("\n") and is ignored by the nextDouble() method as it is not a double
         String myString = input.nextLine(); //method to read string
         System.out.printf("You entered \"%s\".%n%n", myString); //displays the users input
+
+
+
     }
 }

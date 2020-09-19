@@ -258,5 +258,27 @@ public class HelloWorld {
 
 
     //     CONTROL FLOW STATEMENTS
+    //  COMPARISON OPERATORS
+
+    //Not equal (!=)
+    //Returns true if the left is not equal to the right
+    5 != 2 is true
+    6 != 6 is false
+
+    //Greater than (>)
+    //Returns true if the left is greater than the right
+    5 > 2 is true
+    3 > 6 is false
+
+    //Smaller than (<)
+    //Returns true if the left is smaller than the right
+    1 < 7 is true
+    9 < 6 is false
+
+    //Greater than or equal to (>=)
+    //Returns true if the left is greater than or equal to the right
+    5 >= 2 is true
+    5 >= 5 is true
+    3 >= 6 is false
 
 }
