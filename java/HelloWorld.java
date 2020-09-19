@@ -281,4 +281,22 @@ public class HelloWorld {
     5 >= 5 is true
     3 >= 6 is false
 
+    //Smaller than or equal to (<=)
+    //Returns true if the left is smaller than or equal to the right
+    5 <= 7 is true
+    7 <= 7 is true
+    9 <= 6 is false
+
+    //The AND operator (&&)
+    //Returns true if all conditions are met
+    5==5 && 2>1 && 3!=7 is true
+    5==5 && 2<1 && 3!=7 is false as the second condition is (2<1) false
+
+    //The OR operator (||)
+    //Returns true if at least on condition is met
+    5==5 || 2<1 || 3==7 is true as the first condition (5==5) is true
+    5==6 || 2<1 || 3==7 is false as all conditions are false
+
+    //DECISION MAKING STATEMENTS
+
 }
