@@ -299,4 +299,16 @@ public class HelloWorld {
 
     //DECISION MAKING STATEMENTS
 
+    //IF STATEMENTS
+
+    if(Condition 1 is met){ //tests first conditions
+        do Task A //if condition is met everything inside these {} are executed if not then it moves on to else if statement below
+    }else if(Conditione 2 is met){ //tests second condition
+        do Task B
+    }else if(Condition 3 is met){ //tests third condition
+        do Task C
+    }else{ //tests the last condition if none of the other conditions are met and executes the Task
+        do Task D
+    }
+
 }
