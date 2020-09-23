@@ -297,9 +297,9 @@ public class HelloWorld {
     5==5 || 2<1 || 3==7 is true as the first condition (5==5) is true
     5==6 || 2<1 || 3==7 is false as all conditions are false
 
-    //DECISION MAKING STATEMENTS
+    //    DECISION MAKING STATEMENTS
 
-    //IF STATEMENTS
+    //    IF STATEMENTS
 
     if(Condition 1 is met){ //tests first conditions
         do Task A //if condition is met everything inside these {} are executed if not then it moves on to else if statement below
@@ -310,5 +310,18 @@ public class HelloWorld {
     }else{ //tests the last condition if none of the other conditions are met and executes the Task
         do Task D
     }
+
+    //    TERNARY OPERATOR
+    //The ternary operator (?) is a simpler form of an if statement
+    //Ex: contition ? value to return if condition is true :
+    //Value to return if condition is false;
+
+    3>2 ? 10 : 5;
+    //Returns the value 10 since 3 is greater than 2 (the condition 3 > 2 is true)
+
+    int myNum = 3>2 ? 10 : 5;
+    //myNum will be assigned to the value 10
+
+
 
 }
