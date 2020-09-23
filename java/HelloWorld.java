@@ -322,6 +322,22 @@ public class HelloWorld {
     int myNum = 3>2 ? 10 : 5;
     //myNum will be assigned to the value 10
 
+    //    SWITCH STATEMENTS
+    //Works similar to an if statement except it does not work with a range of values.
+    //A "switch" statement requires each case to be based on a single value.
 
+    switch (variable used for switching){
+        case firstCase:
+            do A;
+            break;
+
+        case secondCase:
+            do B;
+            break;
+
+        default:
+            do C;
+            break;
+    }
 
 }
