@@ -340,4 +340,16 @@ public class HelloWorld {
             break;
     }
 
+    //LOOPING STATEMENTS
+    //Four common Looping statements are "for" loop, the enhanced "for" loop, "while" loop, and the "do-while" loop.
+
+    //The for loop syntax is below
+    for(initial value; test condition; modification to value){
+        //Do some task
+    }
+
+    for(int i = 0; i < 5; i++){ //The first part int
+        System.out.println(i);
+    }
+
 }
