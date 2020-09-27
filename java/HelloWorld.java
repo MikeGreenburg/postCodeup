@@ -367,8 +367,18 @@ public class HelloWorld {
     }
 
     for(int item : myNumbers)//Loops through the myNumbers array and assigns the item variable a different number based on the loop and the array index sequence.
-        System.out.println(item);//Each time this line is run it prints out the the number assigned to item
-    //In the code above, we declared an int variable item that is used for looping
+        System.out.println(item);//Each time this line is run it prints out the the number assigned to item until all elements in the array have been printed.
+    //In the code above, we declared an int variable item that is used for looping.
+
+    //     WHILE STATEMENT
+    //Executes instructions inside the loop while a certain condition remains valid.
+
+    //Syntax for While statement is:
+    while(condition is true){
+        //Do A
+    }
+
+    //Most of the time when using a while statment, a variable declaration is needed for a loop counter.
 
 
 }
