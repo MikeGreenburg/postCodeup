@@ -359,9 +359,16 @@ public class HelloWorld {
     }
 
     //      ENHANCED FOR STATEMENT
+    //Used working with  arrays and Collections. Used if you want to get information from an array without makeing any changes to it.
 
+    //Syntax for an enhanced for statement is:
+    for(variable declaration : name of array){
 
+    }
 
+    for(int item : myNumbers)//Loops through the myNumbers array and assigns the item variable a different number based on the loop and the array index sequence.
+        System.out.println(item);//Each time this line is run it prints out the the number assigned to item
+    //In the code above, we declared an int variable item that is used for looping
 
 
 }
