@@ -340,7 +340,7 @@ public class HelloWorld {
             break;
     }
 
-    //LOOPING STATEMENTS
+    //     LOOPING STATEMENTS
     //Four common Looping statements are "for" loop, the enhanced "for" loop, "while" loop, and the "do-while" loop.
 
     //The for loop syntax is below
@@ -348,8 +348,20 @@ public class HelloWorld {
         //Do some task
     }
 
-    for(int i = 0; i < 5; i++){ //The first part int
-        System.out.println(i);
+    for(int i = 0; i < 5; i++){ //The first part declares and initializes  an int variable i to zero, this variable serves as a loop counter.
+        System.out.println(i); //The second part  tests if i is less than 5, if it is the statement inside the "{}" will be executed.
+    }//After executing the "System.out.println(i)" statement, the program returns to the last segment in Line 351. i++ increments the value of i by 1
+
+    int[] myNumbers = {10, 20, 30, 40, 50};
+
+    for(int i = 0; i < myNumbers.length; i++){
+        System.out.println(myNumbers[i]);//As myNumbers.length is equal to 5.
     }
+
+    //      ENHANCED FOR STATEMENT
+
+
+
+
 
 }
