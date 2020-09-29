@@ -379,6 +379,27 @@ public class HelloWorld {
     }
 
     //Most of the time when using a while statment, a variable declaration is needed for a loop counter.
+    int counter = 5;
 
+    while(counter > 0){
+        System.out.println("Counter = " + counter);
+        counter = counter - 1;//Decreases the counter by 1 each time the loop is run. This is needed so that line 384 eventually becomes false
+    }
+    //If you run the code you will get
+    //Counter = 5
+    //Counter = 4
+    //Counter = 3
+    //Counter = 2
+    //Counter = 1
+
+    //     DO-WHILE STATEMENT
+    //Is similar to the while statement with one main difference. The code within the {} of a do-while statement is executed at least once
+
+    int counter = 100;
+
+    do{
+        System.out.println("Counter = " + counter);
+        counter++;
+    }while (counter < 0);
 
 }
