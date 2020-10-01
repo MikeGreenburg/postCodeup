@@ -398,8 +398,24 @@ public class HelloWorld {
     int counter = 100;
 
     do{
-        System.out.println("Counter = " + counter);
+        System.out.println("Counter = " + counter);//After this statement the counter is incremented by 1
         counter++;
     }while (counter < 0);
+
+    //Will return counter = 100;
+
+    //      BRANCHING STATEMENTS
+    //Instructs the program to branch to another line of code. Branching statements are commonly use in loops and other control flow statements.
+
+    //      Break Statement
+    //The first branching statement is the break statement.
+
+    for(int i = 0; i < 5; i++){
+        System.out.println("i = " + i);
+        if(i == 2)
+            break;
+    }//Returns i = 0
+    //i = 1
+    //i = 2 because of the break statement if not it would run to i = 3, i = 4, i = 5.
 
 }
