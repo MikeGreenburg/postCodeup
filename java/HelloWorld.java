@@ -418,4 +418,25 @@ public class HelloWorld {
     //i = 1
     //i = 2 because of the break statement if not it would run to i = 3, i = 4, i = 5.
 
+    //      CONTINUE STATEMENT
+    //We use continue, the rest of the loop after the word is skipped for that iteration.
+
+    for(int i = 0; i < 5; i++){
+        System.out.println("i = " + i);
+        if(i == 2)
+            continue;
+        System.out.println("I will not be printed if  i = 2.");
+    }
+    //Returns i = 0
+    //I will not be printed if i = 2.
+    //i = 1
+    //I will not be printed if i = 2.
+    //i = 2
+    //i = 3
+    //I will not be printed if i = 2.
+    //i = 4
+    //I will not be printed if i = 2.
+
+
+
 }
