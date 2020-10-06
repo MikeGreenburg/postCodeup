@@ -437,6 +437,18 @@ public class HelloWorld {
     //i = 4
     //I will not be printed if i = 2.
 
+    //     EXCEPTION HANDLING
+    //Used to control the flow of a program when an error occurs using "try-catch-finally" statement
+    //Syntax for try-catch-finally statement
+    try{
+        do something
+    }
+    catch(type of error){
+       do something eles when an error occurs
+    }
+    finally{
+        do this regardless of whether the try or catch condition is met.
+    }
 
 
 }
