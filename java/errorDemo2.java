@@ -27,4 +27,5 @@ public class ErrorDemo2{
             System.out.printf(e.getMessage());
         }
     }
-}
+}//If you enter "10" you will get "Error: Index is invalid."
+//If you enter "Hello" you will get "Error: You did not enter an integer"
