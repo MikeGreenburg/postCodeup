@@ -459,9 +459,13 @@ public class HelloWorld {
         //including fields, constructors and methods
     }
     //An example is :
-        public class ManagementStaff{
+        public class ManagementStaff{//class can either be public or package-private
 
     }
+    //Public means the class can be accessed by any class in the program
+    //Package-private means the class is only accessible to other classes within the same package.
+    //There can be more than one package in a Java aplication.
+    //Private is the default access level
 
 
 }
