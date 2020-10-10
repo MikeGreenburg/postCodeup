@@ -450,5 +450,18 @@ public class HelloWorld {
         do this regardless of whether the try or catch condition is met.
     }
 
+    //OBJECT ORIENTED PROGRAMMING
+    //Programming that breaks a programming problem into objects that interact with each other
+
+    //Writing our own class syntax
+    AccessModifier class ClassName {
+        //Contents of the class
+        //including fields, constructors and methods
+    }
+    //An example is :
+        public class ManagementStaff{
+
+    }
+
 
 }
