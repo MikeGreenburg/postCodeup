@@ -467,5 +467,12 @@ public class HelloWorld {
     //There can be more than one package in a Java aplication.
     //Private is the default access level
 
+    //Feilds
+    //1st we declare the fields for our "Staff" class
+    public class Staff{
+        private String nameOfStaff;//Field (nameOfStaff)
+        private final int hourlyRate = 30;//Field (hourlyRate)
+        private int hoursWorked;//Field (hoursWorked)
+    }
 
 }
