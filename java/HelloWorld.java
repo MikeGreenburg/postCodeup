@@ -450,7 +450,7 @@ public class HelloWorld {
         do this regardless of whether the try or catch condition is met.
     }
 
-    //OBJECT ORIENTED PROGRAMMING
+    //     OBJECT ORIENTED PROGRAMMING
     //Programming that breaks a programming problem into objects that interact with each other
 
     //Writing our own class syntax
@@ -467,12 +467,18 @@ public class HelloWorld {
     //There can be more than one package in a Java aplication.
     //Private is the default access level
 
-    //Feilds
+    //     Fields / Encapsulation
     //1st we declare the fields for our "Staff" class
     public class Staff{
-        private String nameOfStaff;//Field (nameOfStaff)
+        private String nameOfStaff;//Field (nameOfStaff), Setting to private is also known as encapsulation
         private final int hourlyRate = 30;//Field (hourlyRate)
         private int hoursWorked;//Field (hoursWorked)
-    }
+    }//Encapsulation enables us to hide data and brhaviour from other classes.
 
+    //     Methods
+    //Code block that performs a certain task
+
+    public void printMessage(){//Method is declared as "public void printMessage"
+        System.out.println("Calculating Pay...");
+    }
 }
